@@ -28,3 +28,23 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+.body {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.nav-sidebar {
+    margin: 50px 0 0 50px;
+    border-right: 3px solid grey;
+    padding-right: 10px;
+}
+
+.nav-sidebar > ul {
+    list-style: none;
+}
