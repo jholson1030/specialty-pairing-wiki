@@ -1,0 +1,20 @@
+.header {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    max-height: 650px;
+    object-fit: cover;
+}
+
+.image-quote {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
