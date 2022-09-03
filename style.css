@@ -39,12 +39,66 @@ img {
     text-align: center;
 }
 
-.nav-sidebar {
-    margin: 50px 0 0 50px;
-    border-right: 3px solid grey;
-    padding-right: 10px;
+.navbar {
+    overflow: hidden;
+    background-color: #333; 
 }
 
-.nav-sidebar > ul {
-    list-style: none;
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown-red, .dropdown-white {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-red, .dropdown-white, .dropbtn-red, .dropbtn-white {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Change the red background color later or just remove it */
+
+.navbar a:hover, .dropdown-red:hover, .dropdown-white:hover, .dropbtn-red:hover, .dropbtn-white:hover {
+    background-color: red;
+}
+
+/* Change the min-width and box-shadow later or remove it */
+
+.dropdown-red-content, .dropdown-white-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-red-content a, .dropdown-white-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-red-content a:hover, .dropdown-white-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-red:hover .dropdown-red-content, .dropdown-white:hover .dropdown-white-content {
+    display: block;
 }
