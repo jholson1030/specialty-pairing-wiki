@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     font-size: 16px;
+    margin: 0;
 }
 
 h1 {
@@ -10,6 +11,7 @@ h1 {
 
 .header {
     text-align: center;
+    padding-top: 25px;
 }
 
 img {
@@ -29,13 +31,8 @@ img {
     align-items: center;
 }
 
-.body {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
 .footer {
-    margin-top: 50px;
+    margin: 50px 0 25px;
     text-align: center;
 }
 
