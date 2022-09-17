@@ -2,6 +2,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     margin: 0;
+    
 }
 
 h1 {
@@ -29,11 +30,14 @@ img {
     margin-top: 80px;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
 .footer {
     margin: 50px 0 25px;
     text-align: center;
+    border-top: solid gray 2px;
+    padding-top: 10px;
 }
 
 .navbar {
